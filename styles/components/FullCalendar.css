@@ -1,0 +1,96 @@
+.fc-toolbar-title {
+    font-size: 15px !important;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.fc-toolbar-chunk:nth-child(2) {
+    margin-left: auto;
+}
+
+.fc .fc-toolbar {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+}
+
+.fc .fc-col-header-cell-cushion {
+    color: #212121;
+    padding: 8px 4px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.fc .fc-cell-shaded, .fc .fc-day-disabled {
+    background: #fcfcfb;
+}
+
+.fc-theme-standard td, .fc-theme-standard th {
+    background: #fff;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+    border: 1px solid #ebf0f7;
+}
+
+.fc .fc-daygrid-day-number {
+    position: relative;
+    z-index: 4;
+    padding: 0px 4px;
+    text-decoration: none;
+    color: #212121;
+    padding-bottom: 0px px;
+    font-size: 14px;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.fc-daygrid-dot-event {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+    flex-wrap: wrap;
+}
+
+.fc-daygrid-dot-event .fc-event-title {
+    font-weight: 500;
+    display: block;
+    margin-left: 4px;
+    max-width: 200px;
+    text-overflow: ellipsis;
+}
+
+.fc-daygrid-event {
+    color: #212121;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0;
+}
+
+.fc-button-primary {
+    background: transparent !important;
+    border: 0px !important;
+    color: #212121 !important;
+    opacity: 0.6;
+}
+
+.fc-button-active {
+    opacity: 1;
+}
+
+.fc .fc-button-primary:not(:disabled):active:focus, .fc .fc-button-primary:not(:disabled).fc-button-active:focus {
+    box-shadow: none !important;
+}
+
+.fc .fc-cell-shaded, .fc .fc-day-disabled {
+    background: #f8f9fc;
+    border: 0px;
+    border-bottom: 1px dashed #ebf0f7;
+    border-right: 1px solid;
+}
+
+.fc-daygrid-event-dot {
+    border-color: #673ab7 !important;
+}

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="591px" height="628px" viewBox="0 0 591 628" version="1.1" style="&#10;">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 34</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"/>
+            <stop stop-color="#DBDBDB" offset="50.1311043%"/>
+            <stop stop-color="#FFFFFF" offset="100%"/>
+        </linearGradient>
+        <filter x="-3.1%" y="-3.1%" width="106.1%" height="106.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.679443934" in="SourceGraphic"/>
+        </filter>
+        <linearGradient x1="-8.0132938%" y1="95.7743883%" x2="16.8714277%" y2="95.7743883%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"/>
+            <stop stop-color="#000000" offset="100%"/>
+        </linearGradient>
+        <filter x="-4.4%" y="-23.2%" width="108.8%" height="146.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.16564758" in="SourceGraphic"/>
+        </filter>
+        <filter x="-3.1%" y="-3.1%" width="106.1%" height="106.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.679443934" in="SourceGraphic"/>
+        </filter>
+        <filter x="-4.4%" y="-23.2%" width="108.8%" height="146.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1.16564758" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-desktop" transform="translate(-685.000000, -2234.000000)">
+            <g id="Group-23" transform="translate(551.000000, 2234.000000)">
+                <g id="Group-34" transform="translate(134.000000, 0.000000)">
+                    <g id="Group-9-Copy-2" opacity="0.699999988" transform="translate(58.000000, 0.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                        <g id="Group-8" transform="translate(0.000000, 154.000000)">
+                            <rect id="Rectangle" x="0" y="0" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="44" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="88" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="133" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="177" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="221" width="529" height="1"/>
+                        </g>
+                        <g id="Group-7" transform="translate(264.500000, 265.000000) rotate(90.000000) translate(-264.500000, -265.000000) translate(-0.000000, 154.000000)">
+                            <rect id="Rectangle" x="0" y="0" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="44" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="88" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="133" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="177" width="529" height="1"/>
+                            <rect id="Rectangle" x="0" y="221" width="529" height="1"/>
+                        </g>
+                    </g>
+                    <g id="Group-30-Copy" transform="translate(349.000000, 345.000000)">
+                        
+                        
+                    </g>
+                    <g id="Group-29-Copy" transform="translate(114.000000, 186.000000)">
+                        
+                        
+                    </g>
+                    
+                    <ellipse id="Oval-Copy-5" fill="#FF6575" cx="553.5" cy="593" rx="37.5" ry="35" style="&#10;    fill: transparent;&#10;    stroke: #f0f0f0;&#10;"/>
+                    <ellipse id="Oval-Copy-6" fill="#FF6575" cx="516" cy="535" rx="16" ry="15" style="&#10;    fill: transparent;&#10;    stroke: #fff5e1;&#10;"/>
+                    <g id="user1-copy-3" transform="translate(281.000000, 213.000000)">
+                        
+                    </g>
+                    
+                    
+                    
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

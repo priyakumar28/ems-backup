@@ -1,0 +1,12 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+.git
+docker-compose.yml
+.env.local
+/coverage
+/jenkinsfile
+/sonar-project.properties

@@ -1,0 +1,204 @@
+/* Button ================================================== CSS */
+.btn+.btn {
+    margin-left: 5px;
+}
+
+
+.btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-check:active+.btn-outline-secondary:focus,
+.btn-check:checked+.btn-outline-secondary:focus,
+.btn-outline-secondary.active:focus,
+.btn-outline-secondary.dropdown-toggle.show:focus,
+.btn-outline-secondary:active:focus {
+    box-shadow: none !important;
+}
+
+.square_wrapper {
+    width: 33px;
+    height: 33px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.square_wrapper.hover {
+    opacity: 0;
+}
+
+.btn-success {
+    color: var(--white);
+    background-color: #1fcb7a !important;
+    border-color: #1fcb7a !important;
+}
+
+.btn-danger {
+    color: var(--white);
+    background-color: #e55a67 !important;
+    border-color: #e55a67 !important;
+}
+
+.btn-white {
+    background: var(--white);
+}
+
+.btn-primary:hover {
+    color: var(--white);
+    background-color: #4058ba !important;
+    border-color: #4058ba;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: var(--white);
+    background-color: #4058ba !important;
+    border-color: #4058ba;
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-outline-secondary {
+    border-color: rgb(114 134 162 / 33%);
+    color: #6c757d;
+}
+
+button.cancel {
+    color: rgba(24, 29, 37, 0.8);
+    background: #fff;
+    border: 1px solid rgba(24, 29, 37, 0.8);
+    box-shadow: 0 1px 1px 0 rgb(118 118 118 / 20%);
+}
+
+button.cancel:hover {
+    background: #ededed;
+}
+
+button.cancel svg {
+    fill: rgb(255 152 0 / 55%);
+    color: rgba(24, 29, 37, 0.8);
+}
+
+button.save {
+    color: #05843e;
+    background: #fff;
+    border: 1px solid #05843e;
+    box-shadow: 0 1px 1px 0 rgb(0 82 71 / 28%);
+}
+
+button.save:hover {
+    background: rgb(82 228 208 / 8%);
+}
+
+button.save svg {
+    color: #05843e;
+}
+
+button.delete {
+    color: #e34134;
+    background: #ffffff;
+    border: 1px solid #e34134;
+    box-shadow: 0 1px 1px 0 #e3413436;
+}
+
+button.delete:hover {
+    background: rgb(227 65 52 / 4%);
+    color: #e34134;
+}
+
+button.delete svg {
+    fill: rgb(255 43 43 / 7%);
+    color: #e34134;
+}
+
+button.password,
+button.password:hover,
+button.password svg {
+    color: #2196f3;
+}
+
+button.password:hover {
+    border-color: #2196f3;
+}
+
+button.password svg {
+    fill: rgb(31 203 122 / 12%);
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+button#dropdown-basic {
+    align-items: center;
+    display: flex;
+}
+
+button.icon-btn {
+    font-size: 16px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    min-height: 30px;
+}
+
+.btn.btn-light-primary {
+    background: #ebf3fe;
+    color: var(--theme);
+}
+
+.btn.btn-light-secondary {
+    background: var(--bg-light);
+    color: rgb(33 37 41 / 70%);
+}
+
+.btn.btn-light-danger {
+    background: #ffeff9;
+    color: rgb(203 33 40 / 70%);
+}
+
+.btn-outline-dark {
+    border: 1px solid !important;
+}
+
+.btn .badge {
+    top: 0px !important
+}
+
+.btn-close {
+    background: transparent url(/images/close.svg);
+    background-size: 46px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-position: center !important;
+}
+
+.btn-close:focus {
+    outline: 0;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.btn-outline-dark:hover svg {
+    color: #fff
+}
+
+/* End Button ============================================== CSS */

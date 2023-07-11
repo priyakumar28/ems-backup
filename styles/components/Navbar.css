@@ -1,0 +1,91 @@
+/* Navbar ============================================ CSS */
+
+.bg-ems-navbar {
+    padding: 0;
+    height: 64px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 8;
+}
+
+.nav-brand-box {
+    width: 240px;
+    height: 64px;
+    padding: 0 0.75rem;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+a.navbar-brand img {
+    transform: translateY(2px);
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+    min-width: 300px;
+    text-align: center;
+    padding: 30px 15px !important;
+    right: 0px !important;
+    left: inherit;
+}
+
+.expand-menu .nav-brand-box {
+    width: 70px;
+    justify-content: center;
+}
+
+svg.feather.feather-menu.menu-bar {
+    margin: 0px;
+}
+
+.expand-menu .menu-bar {
+    position: absolute;
+    left: 85px;
+}
+
+.icon-logo {
+    display: none;
+}
+
+.expand-menu .icon-logo {
+    display: block;
+}
+
+.expand-menu .expand-logo {
+    display: none;
+}
+
+@media(max-width:1200px) {
+    img.expand-logo {
+        display: none;
+    }
+
+    img.icon-logo {
+        display: block !important;
+    }
+
+    .nav-brand-box {
+        width: 50px !important;
+        justify-content: center;
+    }
+
+    .menu-bar {
+        left: 65px !important;
+        position: absolute;
+    }
+
+    .nav-brand-box {
+        box-shadow: none !important;
+        border-right: 1px solid var(--border) !important;
+    }
+}
+
+/* End Navbar ============================================ CSS */
